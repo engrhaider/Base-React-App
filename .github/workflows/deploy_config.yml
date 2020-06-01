@@ -21,4 +21,4 @@ jobs:
       - name: Install Surge
         run: npm install -g surge
       - name: Run surge
-        run: surge ./ bootcamp_react_base_app_haider.surge.sh --token ${{ secrets.SURGE_TOKEN }}
+        run: surge ./build bootcamp_react_base_app_haider.surge.sh --token ${{ secrets.SURGE_TOKEN }}
