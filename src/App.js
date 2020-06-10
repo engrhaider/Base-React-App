@@ -1,11 +1,11 @@
 import React from 'react';
-import './App.css';
+import HelloWorld from './Custom'
 
 function App({name, age}) {
   return (
       <div id="myapp">
         <h1>Playing with components</h1>
-        <p>My name is {name} and age is {age}</p>
+        <HelloWorld name="Haider Ai" profession="Software Engineer" />
       </div>
   );
 }
